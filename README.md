@@ -60,7 +60,7 @@ imprimir:
 	RET                  ; return
 
 exit:                  ; declarando a função exit
-	MOV rax, 0x3c        ; syscall (exit)
+	MOV rax, 0x3c        ; syscall (sys_exit)
 	MOV rdi, 0x0         ; exit(0)
 	SYSCALL              ; chamando ela
 
