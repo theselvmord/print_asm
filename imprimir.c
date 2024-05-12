@@ -4,6 +4,6 @@
 int main()
 {
 	system("clear");
-	printf("Ola Mundo!");
+	printf("Ola Mundo!\n");
 	exit(0);
 }
