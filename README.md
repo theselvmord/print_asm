@@ -19,10 +19,10 @@ imprimir:
 	SYSCALL
 	RET
 ```
-Agora vamos inspecionar a função "imprimir", já nas primeiras linhas dessa função estaremos definindo os parometros (deixando bem claro que algumas syscall precisam de alguns parometros especificos, e pode ser encontrado no site ![syscall](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)) 
+Agora vamos inspecionar a função "imprimir", já nas primeiras linhas dessa função estaremos definindo os parometros (deixando bem claro que algumas syscall precisam de alguns parometros especificos, e pode ser encontrado no site [syscall](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)) 
 | Registrador   | Uso           |
 | ------------- | ------------- |
-| RAX           | ![syscall](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)       |
+| RAX           | [syscall](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)       |
 | RDI           | 1° argumento  |
 | RSI           | 2° argumento  |
 | RDX           | 3° argumento  |
