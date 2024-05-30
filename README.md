@@ -1,4 +1,6 @@
-# ![imprimir.s](https://github.com/tisiohw/assembly/blob/main/imprimir.s)
+# [imprimir.s](https://github.com/tisiohw/assembly/blob/main/imprimir.s)
+> Obs: caso esteja um pouco com duvida de como este codigo funciona, experimente ver isto [imprimir.c](https://github.com/tisiohw/assembly/blob/main/imprimir.c), meio que é a mesma coisa só que em C.
+
 já no começo do codigo, você vai ver um:
 ```assembly
 .global _start
