@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>      /* printf */
+//#include <stdlib.h>     /* system, NULL, EXIT_FAILURE */
 
 int main()
 {
-	system("clear");
+	//system("clear");
 	printf("Ola Mundo!\n");
 	exit(0);
 }
